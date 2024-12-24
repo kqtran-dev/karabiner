@@ -5,18 +5,37 @@
                 {
                     "identifiers": {
                         "is_keyboard": true,
-                        "product_id": 4658,
-                        "vendor_id": 12771
+                        "product_id": 641,
+                        "vendor_id": 1452
+                    },
+                    "ignore": true
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": true,
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "product_id": 320,
+                        "vendor_id": 9456
+                    },
+                    "simple_modifications": [
+                        {
+                            "from": { "key_code": "escape" },
+                            "to": [{ "key_code": "caps_lock" }]
+                        }
+                    ]
+                },
+                {
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "product_id": 179,
+                        "vendor_id": 5426
                     },
                     "ignore": true
                 }
             ],
             "name": "Default profile",
             "selected": true,
-            "virtual_hid_keyboard": {
-                "country_code": 0,
-                "keyboard_type_v2": "ansi"
-            }
+            "virtual_hid_keyboard": { "keyboard_type_v2": "ansi" }
         }
     ]
 }
