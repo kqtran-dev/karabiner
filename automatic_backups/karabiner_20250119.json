@@ -1,31 +1,6 @@
 {
     "profiles": [
         {
-            "complex_modifications": {
-                "rules": [
-                    {
-                        "description": "Remap Ctrl+Shift+A to execute Firefox tab search",
-                        "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "bundle_identifiers": [
-                                            "^org\\.mozilla\\.firefox$"
-                                        ],
-                                        "type": "frontmost_application_if"
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "a",
-                                    "modifiers": { "mandatory": ["left_control", "left_shift"] }
-                                },
-                                "to": [{ "shell_command": "hs -c 'hs.loadSpoon(\"TabSearch\").trigger()'" }],
-                                "type": "basic"
-                            }
-                        ]
-                    }
-                ]
-            },
             "devices": [
                 {
                     "identifiers": {
@@ -51,12 +26,12 @@
                             "to": [{ "key_code": "left_option" }]
                         },
                         {
-                            "from": { "key_code": "left_control" },
-                            "to": [{ "key_code": "left_control" }]
-                        },
-                        {
                             "from": { "key_code": "left_option" },
                             "to": [{ "key_code": "left_command" }]
+                        },
+                        {
+                            "from": { "key_code": "left_control" },
+                            "to": [{ "key_code": "left_control" }]
                         }
                     ]
                 },
