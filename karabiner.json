@@ -5,6 +5,7 @@
                 "rules": [
                     {
                         "description": "Remap Ctrl+Shift+A to execute Firefox tab search",
+                        "enabled": false,
                         "manipulators": [
                             {
                                 "conditions": [
