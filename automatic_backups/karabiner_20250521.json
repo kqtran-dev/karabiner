@@ -49,22 +49,6 @@
                             "to": [{ "key_code": "grave_accent_and_tilde" }]
                         }
                     ]
-                },
-                {
-                    "disable_built_in_keyboard_if_exists": true,
-                    "identifiers": {
-                        "is_keyboard": true,
-                        "is_pointing_device": true,
-                        "product_id": 12870,
-                        "vendor_id": 6645
-                    },
-                    "ignore": false,
-                    "simple_modifications": [
-                        {
-                            "from": { "key_code": "caps_lock" },
-                            "to": [{ "key_code": "escape" }]
-                        }
-                    ]
                 }
             ],
             "name": "Default profile",
