@@ -38,6 +38,15 @@
                 {
                     "disable_built_in_keyboard_if_exists": true,
                     "identifiers": {
+                        "device_address": "d5-65-b2-8e-8a-de",
+                        "is_keyboard": true,
+                        "is_pointing_device": true
+                    },
+                    "ignore": false
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": true,
+                    "identifiers": {
                         "is_keyboard": true,
                         "is_pointing_device": true,
                         "product_id": 12870,
@@ -59,14 +68,6 @@
                             "to": [{ "key_code": "escape" }]
                         }
                     ]
-                },
-                {
-                    "identifiers": {
-                        "is_keyboard": true,
-                        "product_id": 50475,
-                        "vendor_id": 1133
-                    },
-                    "ignore": true
                 }
             ],
             "name": "Default profile",
